@@ -31,8 +31,7 @@
                 <TextView
                     android:id="@+id/tv_songname1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Suna Saheli" />
+                    android:layout_height="wrap_content" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -42,8 +41,7 @@
                 <TextView
                     android:id="@+id/tv_releasedate1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="1986" />
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
 
 
@@ -70,14 +68,13 @@
                     android:id="@+id/tv_songname2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Suna Saheli" />
+                    android:gravity="center"/>
 
                 <TextView
+                    android:text="was released in"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="was released" />
+                    android:gravity="center"/>
 
                 <Button
                     android:id="@+id/btn_before"

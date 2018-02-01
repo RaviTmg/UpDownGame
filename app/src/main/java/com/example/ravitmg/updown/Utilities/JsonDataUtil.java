@@ -20,7 +20,7 @@ import java.util.Comparator;
  */
 
 public class JsonDataUtil {
-    public static ArrayList<Song> getJsonForGame(Context context, String category) {
+    /*public static ArrayList<Song> getJsonForGame(Context context, String category) {
         Log.e("filename",category);
         ArrayList<Song> songArrayList = new ArrayList<>();
         try {
@@ -38,17 +38,11 @@ public class JsonDataUtil {
         } catch (JSONException e) {
             Log.e("Json Exception:", e.getMessage() + "");
         }
-        Collections.sort(songArrayList, new RepeatComparator());
         Collections.sort(songArrayList, new SortComparator());
         return songArrayList;
     }
 
-    public static class RepeatComparator implements Comparator<Song> {
-        @Override
-        public int compare(Song o1, Song o2) {
-            return o1.getSid().compareTo(o2.getSid());
-        }
-    }
+  */
 
     public static class SortComparator implements Comparator<Song> {
         @Override
