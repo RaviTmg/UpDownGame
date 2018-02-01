@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679321463616",
+    "firebase_url": "https://upsanddown-a22e7.firebaseio.com",
+    "project_id": "upsanddown-a22e7",
+    "storage_bucket": "upsanddown-a22e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679321463616:android:e558374b790879be",
+        "android_client_info": {
+          "package_name": "com.example.ravitmg.updown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679321463616-cfekgp5l2og4s7pvgko4dnimf7cvkg4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ravitmg.updown",
+            "certificate_hash": "8ca5c12a23b104913fd22865d67325666d50ebb1"
+          }
+        },
+        {
+          "client_id": "679321463616-r42ppifmmnkf1471g9s4hvp10jermd62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgGJdUDtLAM_MiBoLPvaEoARbHRDsiYaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679321463616-r42ppifmmnkf1471g9s4hvp10jermd62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
